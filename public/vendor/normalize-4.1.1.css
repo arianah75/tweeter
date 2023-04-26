@@ -1,4 +1,7 @@
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
 
 /**
  * 1. Change the default font family in all browsers (opinionated).

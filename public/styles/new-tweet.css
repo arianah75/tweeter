@@ -1,0 +1,50 @@
+/* .new-tweet {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.new-tweet h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.new-tweet label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.new-tweet textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+.new-tweet div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.new-tweet button {
+  background-color: #3cb371;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.new-tweet output {
+  font-size: 18px;
+} */

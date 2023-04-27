@@ -14,11 +14,17 @@ html {
  * Global layout stuff
  */
 
-body {
+ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+  width: 90%; /* Set the width to 90% of its parent element */
+  margin: 0 auto; /* Center the main element horizontally */
+  background-color: inherit; /* Set the background color to be the same as its parent element (body) */
 }
 
 

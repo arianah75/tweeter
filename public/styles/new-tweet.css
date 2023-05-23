@@ -1,15 +1,6 @@
-/* .new-tweet {
+main.new-tweet {
   margin-top: 20px;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.new-tweet h2 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
 }
 
 .new-tweet label {
@@ -20,12 +11,17 @@
 
 .new-tweet textarea {
   width: 100%;
-  height: 100px;
   resize: none;
-  border: 1px solid #ccc;
+  background-color: transparent;
+  border: none;
   padding: 5px;
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
   font-size: 18px;
+}
+
+.new-tweet textarea:focus {
+  outline: none;
 }
 
 .new-tweet div {
@@ -36,15 +32,27 @@
 }
 
 .new-tweet button {
-  background-color: #3cb371;
+  background-color: #4056a1;
   color: #fff;
   border: none;
   border-radius: 3px;
   padding: 8px 16px;
   font-size: 18px;
+  font-family: "Bungee", cursive;
   cursor: pointer;
 }
 
 .new-tweet output {
   font-size: 18px;
-} */
+  font-family: "Bungee", cursive;
+}
+
+.new-tweet form {
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 20px;
+}
+.new-tweet hr {
+  border: none;
+  border-top: 3px solid #000000; /* Increased from 1px to 3px */
+  margin-bottom: 10px;
+}

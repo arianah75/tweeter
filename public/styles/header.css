@@ -6,14 +6,13 @@ header {
   width: 100%;
   height: 400px;
   background-color: #b88a00;
-  background-image: url("../images/church.png"); /* Update the path to the image you saved */
+  background-image: url('../images/church.png'); /* Update the path to the image you saved */
 }
 
 /* style for the avatar */
 header img {
   width: 150px; /* adjust the size of the avatar */
   height: 150px;
-  border-radius: 50%;
   object-fit: cover;
 }
 

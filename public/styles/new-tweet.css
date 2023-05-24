@@ -7,6 +7,7 @@ main.new-tweet {
   display: block;
   font-weight: 600;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .new-tweet textarea {
@@ -18,6 +19,7 @@ main.new-tweet {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-size: 18px;
+  border-bottom: 5px solid #545149;
 }
 
 .new-tweet textarea:focus {
@@ -38,21 +40,20 @@ main.new-tweet {
   border-radius: 3px;
   padding: 8px 16px;
   font-size: 18px;
-  font-family: "Bungee", cursive;
+  font-family: 'Bungee', cursive;
   cursor: pointer;
 }
 
 .new-tweet output {
   font-size: 18px;
-  font-family: "Bungee", cursive;
+  font-family: 'Bungee', cursive;
 }
 
 .new-tweet form {
   border-bottom: 1px solid #dbdbdb;
   padding-bottom: 20px;
 }
-.new-tweet hr {
-  border: none;
-  border-top: 3px solid #000000; /* Increased from 1px to 3px */
-  margin-bottom: 10px;
+
+.count-exceeded {
+  color: red;
 }

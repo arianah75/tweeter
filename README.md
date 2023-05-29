@@ -20,4 +20,4 @@ This repository is the starter code for the project: Students will fork and clon
 ## Screenshots
 
 !["Screenshot of the app tweets"](https://github.com/arianah75/tweeter/blob/master/docs/tweeter-app.PNG?raw=true)
-!["Screenshot of the desktop tweets"](htthttps://github.com/arianah75/tweeter/blob/master/docs/tweeter-desktop.PNG?raw=true)
+!["Screenshot of the desktop tweets"](https://github.com/arianah75/tweeter/blob/master/docs/tweeter-desktop.PNG?raw=true)

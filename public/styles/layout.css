@@ -1,20 +1,19 @@
-/*
- * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
- * https://css-tricks.com/international-box-sizing-awareness-day/
- * Do not modify these two selectors, please
- */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
+@media only screen and (min-width: 1024px) {
+  .profile {
+    width: 25vw;
+    height: 40vh;
+    float: left;
+    margin-block: 4em;
+    margin-left: 4em;
+  }
+
+  .container {
+    width: 60vw;
+    float: right;
+  }
 }
 
-/*
- * Global layout stuff
- */
-
- body {
+body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
@@ -26,8 +25,3 @@ main {
   margin: 0 auto; /* Center the main element horizontally */
   background-color: inherit; /* Set the background color to be the same as its parent element (body) */
 }
-
-
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */

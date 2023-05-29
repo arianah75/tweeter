@@ -74,8 +74,11 @@ $(document).ready(function () {
       errorElement.html(errorMessage).slideDown().delay(2000).slideUp();
       return;
     }
-
+    
     $.post('/tweets', $(this).serialize(), function () {
+      // Clear the textarea and reset the counter
+      textArea.val('');
+      $('.counter').text('140').removeClass('count-exceeded');
       loadTweets(); // refresh tweets on successful post
     }).fail(function (err) {
       console.error('Error occurred during data submission: ', err);

@@ -50,9 +50,8 @@ main.new-tweet {
 }
 
 .new-tweet form {
-  border-bottom: 1px solid #dbdbdb;
   padding-bottom: 20px;
-  width: 90%;
+  width: 94%;
   margin-right: 1em;
 }
 
